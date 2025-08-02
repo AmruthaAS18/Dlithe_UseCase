@@ -12,4 +12,10 @@ export class FetchRestaurantService{
         const url=`${this.baseUrl}fetch-restaurant`
         return this.http.get(url);
     }
+	getRestaurantId(){
+	    const url=`${this.baseUrl}fetch-restaurant`
+	    return this.http.get(url);
+	}
 }
+
+
